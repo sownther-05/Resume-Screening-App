@@ -1,0 +1,30 @@
+# Python bytecode files
+*.pyc
+*.pyo
+*.pyd
+__pycache__/
+
+# Flask instance folder
+instance/
+
+# Virtual environment
+venv/
+env/
+
+# IDE/editor specific files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Uploads folder (optional, if you don't want to push uploaded files)
+uploads/
+
+# Environment variables (e.g., sensitive information or API keys)
+.env
+
+# .DS_Store (for macOS users)
+.DS_Store
+
+# Logs
+*.log

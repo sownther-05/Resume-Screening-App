@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resume Screening Result</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <div class="result-container">
+        <h1>Resume Screening Result</h1>
+        <p>{{ message }}</p>
+        
+        {% if matched_skills %}
+            <h3>Matched Skills:</h3>
+            <ul class="matched-skills">
+                {% for skill in matched_skills %}
+                    <li>{{ skill }}</li>
+                {% endfor %}
+            </ul>
+        {% else %}
+            <p>No skills matched from your resume. Keep improving and try again!</p>
+        {% endif %}
+
+        <h3>Thank you for using our application! 😊</h3>
+        <h3>Keep improving your skills every day.</h3>
+        <h2>Have a Great Day!</h2>
+        
+        <a href="/">Go Back</a>
+    </div>
+</body>
+</html>
