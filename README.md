@@ -15,47 +15,47 @@ To run this project locally, follow these steps:
 
 ### 1. Clone the repository
 
-```bash
+
 git clone https://github.com/sownther-05/Resume-Screening-App.git
 
-2. Navigate to the project directory
-bash
+
+### 2. Navigate to the project directory
+
 Copy code
 cd Resume-Screening-App
 
-3. Create a virtual environment (optional but recommended)
-bash
+### 3. Create a virtual environment (optional but recommended)
+
 Copy code
 python3 -m venv venv
 
-4. Activate the virtual environment
-On Windows:
-bash
-Copy code
-venv\Scripts\activate
-On Mac/Linux:
-bash
-Copy code
-source venv/bin/activate
+### 4. Activate the virtual environment
 
-5. Install the required dependencies
-bash
-Copy code
-pip install -r requirements.txt
+On Windows:
+Copy code: venv\Scripts\activate
+
+On Mac/Linux:
+Copy code: source venv/bin/activate
+
+### 5. Install the required dependencies
+
+Copy code: pip install -r requirements.txt
 __________________________________________
 
-Usage
-1. Run the Flask application
-bash
-Copy code
+### Usage
+
+### 1. Run the Flask application
+
+Copy code:
 python app.py
-2. Open your web browser and navigate to:
-arduino
-Copy code
-http://127.0.0.1:5000/
-3. Upload a resume and enter a job description to see the keyword matching result.
+
+### 2. Open your web browser and navigate to:
+
+Copy code: http://127.0.0.1:5000/
+
+### 3. Upload a resume and enter a job description to see the keyword matching result.
 Project Structure
-plaintext
+
 Copy code
 Resume-Screening-App/
 ├── app.py             # Main application file
@@ -70,12 +70,12 @@ Resume-Screening-App/
 └── .gitignore         # Git ignore file to exclude unnecessary files
 
 
-Technologies Used
-
+### Technologies Used
 
 Flask: Web framework for building the application.
 PyPDF2: Library to extract text from PDF files.
 python-docx: Library to extract text from DOCX files.
 HTML/CSS: For structuring and styling the web pages.
-Contributing
+
+### Contributing
 Feel free to fork this project and submit pull requests. If you have any suggestions or issues, please open an issue in the GitHub repository.
