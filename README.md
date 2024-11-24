@@ -79,3 +79,9 @@ HTML/CSS: For structuring and styling the web pages.
 
 ### Contributing
 Feel free to fork this project and submit pull requests. If you have any suggestions or issues, please open an issue in the GitHub repository.
+
+
+### Output
+
+![image](https://github.com/user-attachments/assets/ebe2fb13-caa5-471d-85c3-483b3e701993)
+
